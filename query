@@ -4,3 +4,7 @@ join category on category.category_id = events.category_id
 join assignments on assignments.event_id = events.event_id
 join users on assignments.user_id = users.user_id
 Where extract(month from events.date)=1
+
+Where extract(month from events.date)=1
+Where extract(month from events.date)=1Where extract(month from events.date)=1
+
